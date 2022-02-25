@@ -13,7 +13,7 @@ ul{
     list-style: none;
 }
 #container{
-    background: #ede9cc;
+    background: #ede9cc url(../images/bg-container.png) top center repeat-y;
     margin:0 auto;
     min-width: 740px;
     max-width: 1180px;
@@ -98,4 +98,67 @@ a.reserve{
     width: 151px;
     height: 66px;
     text-indent: -9000px;
+}
+
+/*AREA DE CONTEUDO
+*******************/
+#primary-content{
+    float: left;
+    width: 50%;
+    background: url(../images/bg-area-principal.png) top left repeat-x; 
+    padding: 15px 0px;
+}
+#lateral-content{
+    float: right;
+    width: 50%;
+    background: url(../images/bg-area-lateral.png) top left repeat-x; 
+    padding: 20px 0px;
+}
+.content{
+    margin: 0 auto;
+    width: 90%;    
+}
+#footer{
+    clear: both;
+    padding: 16px;
+    background: #fff url(../images/bg-rodape.png) top repeat-x;
+    color: #7d7640;
+}
+/*AREA LATERAL
+***********************/
+.content li a{
+    height: 100px;
+    display: block;
+    margin: 15px 0px;   
+    position: relative;
+    overflow: hidden;
+}
+.content ul li a:hover{
+    background: #ede9cc;
+}
+.content ul li img{
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+/* FORMATAÇÃO DE TEXTO 
+***********************/
+.content h2{
+    color: #7d7640;
+    font-size: 1.1em;
+    padding: 5px 0px;
+}
+
+.content h3{
+    color: #6e672c;
+    font-size: 1.1em;
+    background: url(../images/ornamento.png) no-repeat right top;
+}
+
+p{
+    font-size: 
+    1em;
+    margin-bottom: 10px;
+    color: #000;
+    text-overflow: "…";
 }
