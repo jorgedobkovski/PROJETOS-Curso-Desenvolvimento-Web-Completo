@@ -11,11 +11,162 @@
      <!-- Font Awesome -->
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    <title>Finans - Finanças pessoais</title>
   </head>
   <body>
+    <header>    <!--inicio header-->  
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <div class="container">
+          <div class="logo">
+            <a href="#">
+              <img src="img/logo.png" width="142">
+            </a>
+          </div>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="callapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Recursos</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Beneficios</a></li>
+              <li class="nav-item"><a class="nav-link" href="">Preços</a></li>
+              <button class="btn btn-outline-light ml-4">
+                Entrar
+              </button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header> <!--fim header-->
+    <section id="home" class="bg-warning"><!--inicio home-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h1 class="display-4">Suas contas, descomplicadas</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Ducimus distinctio sapiente atque ex mollitia eos iure.</p>
 
-    <h1>Hello, world!</h1>
+              <form class="mt-4 mb-4">
+                <div class="input-group input-group-lg">
+                  <input type="text" placeholder="Seu e-mail" class="form-control">
+                  <div class="input-group-append">
+                    <button type="button" class="btn btn-primary">Cadastra-se</button>
+                  </div>
+                </div>
+              </form>
+
+              <p>Disponível para
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+                <a href="" class="btn btn-outline-light">
+                  <i class="fab fa-apple fa-lg"></i>
+                </a>                
+              </p>
+
+            </div>            
+          </div>
+          <div class="col-md-6 d-none d-md-block">
+            <img src="img/capa-mulher.png">
+          </div>
+        </div>
+      </div>
+    </section><!--/fim home-->
+
+    <section class="caixa container">
+      <div class="row">
+        <div class="col-md-6 d-flex">
+          <div class="align-self-center">
+            <h2>Saiba para onde vai seu dinheiro.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima 
+              fugiat officia! Iusto, repudiandae qui deleniti voluptatem voluptatum suscipit 
+              dolor odit quia officiis obcaecati non autem omnis itaque reiciendis quae.</p>
+            <a href="" class="btn btn-primary">Veja mais  </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/saiba.png" class="img-fluid">
+        </div>
+      </div>
+    </section>
+
+    <section class="caixa container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/juros.png" class="img-fluid">
+        </div>
+        <div class="col-md-6 d-flex">
+          <div class="align-self-center">
+            <h2>Pare de pagar juros e economize.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima 
+              fugiat officia! Iusto, repudiandae qui deleniti voluptatem voluptatum suscipit 
+              dolor odit quia officiis obcaecati non autem omnis itaque reiciendis quae.</p>
+            <a href="" class="btn btn-primary">Veja mais  </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="caixa container">
+      <div class="row">
+
+        <div class="col-md-4">
+            <img src="img/facil.png" class="img-fluid">
+            <h2>Fácil de usar</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima 
+              fugiat officia! Iusto, repudiandae qui deleniti voluptatem voluptatum suscipit 
+              dolor odit quia officiis obcaecati non autem omnis itaque reiciendis quae.</p>
+            
+        </div>
+
+        <div class="col-md-4 ">
+          <img src="img/economize.png" class="img-fluid">
+          <h2>Economize seu tempo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima 
+              fugiat officia! Iusto, repudiandae qui deleniti voluptatem voluptatum suscipit 
+              dolor odit quia officiis obcaecati non autem omnis itaque reiciendis quae.</p>
+            
+        </div>
+
+        <div class="col-md-4">
+          <img src="img/suporte.png" class="img-fluid">
+          <h2>Suporte amigo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima 
+              fugiat officia! Iusto, repudiandae qui deleniti voluptatem voluptatum suscipit 
+              dolor odit quia officiis obcaecati non autem omnis itaque reiciendis quae.</p>
+            
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+              <a class="" href="">Home</a>
+              <a class="" href="">Recursos</a>
+              <a class="" href="">Beneficios</a>
+              <a class="" href="">Preços</a>                 
+          </div>
+          <div class="col-md-4 d-flex justify-content-end">
+            <a href="" class="btn btn-outline-dark">
+              <i class="fab fa-facebook fa-lg"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark">
+              <i class="fab fa-twitter fa-lg"></i>
+            </a>
+            <a href="" class="btn btn-outline-dark">
+              <i class="fab fa-instagram fa-lg"></i>
+            </a>     
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
