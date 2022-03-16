@@ -1,7 +1,155 @@
+html, body, #cover{
+    height: 100%;
+    overflow-x: hidden;
+}
+
 body{
     background: url(../img/capa.png),
                 url(../img/ruido.png),
                 linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+/* NAV
+*****/
+
+nav.navbar-transparent{
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+nav .nav-link{
+    color: #fff;
+}
+
+nav .nav-link:hover{
+    color: rgb(108, 161, 121);
+    transition: all 500ms;
+}
+
+.navbar .navbar-toggler{
+    color: rgba(0, 0, 0, 0.5);
+    border-color: white;
+}
+
+.separator{
+    width: 1px;
+    margin: 10px 15px;
+    background: #fff;
+}
+
+/*capa
+********/
+.cover-content{
+    color: #fff;
+    text-align: center;
+}
+
+.btn-custom{
+    font-size: 20px;
+    color: #fff;
+    border-radius: 500px;
+    -webkit-border-radius:500px;
+    -moz-border-radius:500px;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 25px;
+    margin: 10px;
+}
+
+.btn-purple{
+    background: #7c26f8;
+}
+
+.btn-purple:hover{
+    background: white;
+}
+
+.btn-white{
+    border: 2px solid white;
+}
+
+.btn-white:hover{
+    background: white;
+    color: black;
+}
+
+/*estrutura de conteudos
+***************************/
+.box{
+    padding:40px 0px;
+}
+#services{
+    background: white;
+}
+#services h2, #services h3{
+    color:#7c26f8;
+}
+
+#function h2{
+    color: white;
+}
+#function h3{
+    color:#9bf0e1;
+}
+#function p{
+    color: #fff;
+}
+
+.albuns{
+    padding: 13px 0px;
+}
+
+.rotation{
+    transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+/*tipografia
+********/
+
+h1{
+    
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: #fff;
+}
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;    
+}
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;    
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    h1{
+        font-size: 3em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    h1{
+        font-size: 4em;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {    
+    h1{
+        font-size: 5em;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    h1{
+        font-size: 6em;
+    }
 
 }
