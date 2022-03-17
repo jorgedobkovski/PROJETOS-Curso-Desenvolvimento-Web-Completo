@@ -193,3 +193,9 @@ h3{
     }
 
 }
+
+/*carousel
+***********/
+.carousel-control-prev, .carousel-control-next{
+    width:5%;
+}
